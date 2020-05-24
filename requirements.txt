@@ -2,7 +2,7 @@ Flask
 Jinja2
 MarkupSafe
 Werkzeug
-gunicorn
+gunicorn== 19.9.0
 itsdangerous
 newrelic
 lxml
