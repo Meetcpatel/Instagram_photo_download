@@ -1,1 +1,1 @@
-web: newrelic-admin run-program gunicorn -b 0.0.0.0:$PORT server:app
+web: gunicorn --bind 0.0.0.0:$PORT flaskapp:app
